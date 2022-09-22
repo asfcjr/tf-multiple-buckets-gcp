@@ -14,4 +14,4 @@ Have terraform installed and gcp api's and just run: terraform init, terraform p
 
 ## Comments:
 
-This bucket is configuring in a basic way, if you want to put other resources like lifecycle and etc.. check the official documentation https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/storage_bucket
+This bucket is configuring in a basic way, if you want to put other resources like lifecycle etc.. check the official documentation https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/storage_bucket
