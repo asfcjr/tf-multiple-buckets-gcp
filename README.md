@@ -4,7 +4,7 @@ This terraform script creates three buckets in gcp automatically.
 
 ## To use:
 
-To use this script you just need to change the vars.tf file and put your data
+To use this script you just need to change the vars.tf file and put your own data
 
 You will also need to create a service account in gcp and download the key and put the key into the project directory and rename it to "service-account-key.json"
 
