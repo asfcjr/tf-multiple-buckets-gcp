@@ -20,3 +20,8 @@ variable "bucket_name" {
              "clique-retire-order3" 
             ]
 }
+
+variable "uniform_bucket_level_access" {
+  type = string
+  default = "true"
+}

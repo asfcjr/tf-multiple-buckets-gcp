@@ -9,4 +9,5 @@ resource "google_storage_bucket" "default" {
   count = length("${var.bucket_name}")
   storage_class = "${var.storage_class}"
   location = "${var.bucket_location}"
+  uniform_bucket_level_access = "${var.uniform_bucket_level_access}"
 }
